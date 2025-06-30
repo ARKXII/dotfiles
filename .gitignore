@@ -7,4 +7,4 @@ foo.*
 *.log
 data
 
-/github-copilot/apps.json
+github-copilot/*
