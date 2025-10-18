@@ -5,7 +5,6 @@
                 "rules": [
                     {
                         "description": "Change Fn + h/j/k/l to Arrows",
-                        "enabled": false,
                         "manipulators": [
                             {
                                 "from": {

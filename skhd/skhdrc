@@ -44,6 +44,14 @@ ctrl + alt - l : yabai -m window --warp east
 shift + alt - s : yabai -m window --display west; yabai -m display --focus west;
 shift + alt - g : yabai -m window --display east; yabai -m display --focus east;
 
+#move window to another desktop
+ctrl + alt - 1 : yabai -m window --space 1; skhd -k "ctrl - 1"
+ctrl + alt - 2 : yabai -m window --space 2; skhd -k "ctrl - 2"
+ctrl + alt - 3 : yabai -m window --space 3; skhd -k "ctrl - 3"
+ctrl + alt - 4 : yabai -m window --space 4; skhd -k "ctrl - 4"
+ctrl + alt - 5 : yabai -m window --space 5; skhd -k "ctrl - 5"
+ctrl + alt - 6 : yabai -m window --space 6; skhd -k "ctrl - 6"
+
 # stop/start/restart yabai
 
 ctrl + alt - q : yabai --stop-service
